@@ -43,9 +43,9 @@
         <div class="row">
             <!-- Konten Utama -->
             <div class="col-lg-8">
-                <h2>Selamat datang di website saya :)</h2>
-                <p class="lead">ini adalah website yang berisi tentang beberapa artikel, tutorial yang diperlukan dalam perbaikan smartphone..</p>
-                <p>Tersedia beberapa tools, software keperluan service handphone, firmware, dump, dan file lainnya</p>
+                <h2>Selamat Datang di Website Saya :)</h2>
+                <p class="lead">ini adalah website yang berisi tentang beberapa artikel, tutorial yang diperlukan dalam perbaikan, pengembangan, dan infromasi smartphone, komputer, dan apple device</p>
+                <p>Tersedia beberapa tools, software keperluan service handphone, firmware, dump, dan software software komputer lainnya</p>
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
             </div>
             <!-- Sidebar -->
