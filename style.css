@@ -1,0 +1,117 @@
+body {
+    font: 16px/20px SF Pro Display, sans-serif;
+    background-color: #eaeaea; 
+    background-image: url(img/daun.png);
+    color: #333;
+}
+
+.container {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 2px;
+    background-color: rgb(252, 248, 243);
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #f1c40f; /* Warna kuning saat hover */
+}
+/*
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 4px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+*/
+.hero {
+    height: 280px;
+    background-image: url(img/hero.png) ;
+    background-size: cover;
+    background-position: 0 -410px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+
+.content {
+    padding: 20px;
+    padding-top: 2px;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.content p {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 4px;
+}
+
+.footer .copy {
+    font-size: 12px;
+    color: #eaeaea;
+    text-align: center;
+}
