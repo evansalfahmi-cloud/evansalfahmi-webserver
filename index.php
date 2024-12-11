@@ -6,6 +6,8 @@
     <title>evansalfahmi-web</title>
     <!-- Link ke file CSS Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -96,7 +98,4 @@
     <footer class="bg-light text-center py-4 mt-5">
         <p>&copy; 2024 evansalfahmi-web. All rights reserved.</p>
     </footer>
-    <!-- Link ke file JS Bootstrap -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+   
