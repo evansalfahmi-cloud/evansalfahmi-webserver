@@ -7,9 +7,11 @@
     <title>evansalfahmi-web</title>
     <!-- Link ke file CSS Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="customfont.css">
+    <link rel="icon" href="img/ico.png" type="image/x-icon"/>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.php#"><h1 class="h3 m-0">evansalfahmi-web</h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
