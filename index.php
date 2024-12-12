@@ -46,7 +46,7 @@
                 <h2>Selamat Datang di Website Saya :)</h2>
                 <p class="lead">ini adalah website yang berisi tentang beberapa artikel, tutorial yang diperlukan dalam perbaikan, pengembangan, dan infromasi smartphone, komputer, dan apple device</p>
                 <p>Tersedia beberapa tools, software keperluan service handphone, firmware, dump, dan software software komputer lainnya</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+             <!--    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
             </div>
             <!-- Sidebar -->
             <div class="col-lg-4">
@@ -63,31 +63,31 @@
         <div class="row mt-4">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <img src="img/smartphone.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">SMARTPHONE</h5>
                         <p class="card-text">Temukan beragam tools dan software terkini, serta tips dan trik pintar untuk mengoptimalkan pengalaman smartphone Anda.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Lihat Smartphone</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <img src="img/computer.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">COMPUTER</h5>
                         <p class="card-text">Dapatkan software pilihan, solusi teknis, dan tips berguna untuk meningkatkan produktivitas dan performa komputer Anda.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Lihat Computer</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <img src="img/apple.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">APPLE DEVICE</h5>
                         <p class="card-text">Jelajahi tools eksklusif, software terbaik, dan trik praktis untuk memaksimalkan perangkat Apple Anda sehari-hari.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Lihat Apple</a>
                     </div>
                 </div>
             </div>
