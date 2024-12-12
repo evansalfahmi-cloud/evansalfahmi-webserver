@@ -1,67 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>evansalfahmi-web</title>
-    <!-- Link ke file CSS Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
-
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#"><h1 class="h3 m-0">evansalfahmi-web</h1></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tools</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Operating System</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Firmware</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-     <!-- Main Content -->
-     <div class="container mt-5">
+<!-- index.php -->
+<?php include 'includes/header.php'; ?>
+<div class="container mt-5">
         <div class="row">
             <!-- Konten Utama -->
-            <div class="col-lg-8">
-                <h2>Selamat Datang di Website Saya :)</h2>
-                <p class="lead">ini adalah website yang berisi tentang beberapa artikel, tutorial yang diperlukan dalam perbaikan, pengembangan, dan infromasi smartphone, komputer, dan apple device</p>
-                <p>Tersedia beberapa tools, software keperluan service handphone, firmware, dump, dan software software komputer lainnya</p>
-             <!--    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+            <div class="jumbotron text-center">
+            <h1>أهلا و سهلا</h1>
+            <p>selamat datang di website ini</p> 
             </div>
-            <!-- Sidebar -->
-            <div class="col-lg-4">
-                <h3>Sidebar</h3>
-                <ul class="list-group">
-                    <li class="list-group-item">Item 1</li>
-                    <li class="list-group-item">Item 2</li>
-                    <li class="list-group-item">Item 3</li>
-                    <li class="list-group-item">Item 4</li>
-                </ul>
-            </div>
-        </div>
+            
         <!-- Row tambahan untuk konten di bawahnya -->
         <div class="row mt-4">
-            <div class="col-md-4">
+        <div class="col-md-4">
                 <div class="card">
                     <img src="img/smartphone.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -93,9 +42,4 @@
             </div>
         </div>
     </div>
-
-    <!-- Footer -->
-    <footer class="bg-light text-center py-4 mt-5">
-        <p>&copy; 2024 evansalfahmi-web. All rights reserved.</p>
-    </footer>
-   
+<?php include 'includes/footer.php'; ?>
