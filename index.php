@@ -12,7 +12,7 @@
         <div class="row mt-4">
         <div class="col-md-4">
                 <div class="card">
-                    <img src="img/smartphone.png" class="card-img-top" alt="...">
+                    <img src="img/smp.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">SMARTPHONE</h5>
                         <p class="card-text">Temukan beragam tools dan software terkini, serta tips dan trik pintar untuk mengoptimalkan pengalaman smartphone Anda.</p>
@@ -22,7 +22,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/computer.png" class="card-img-top" alt="...">
+                    <img src="img/com.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">COMPUTER</h5>
                         <p class="card-text">Dapatkan software pilihan, solusi teknis, dan tips berguna untuk meningkatkan produktivitas dan performa komputer Anda.</p>
@@ -32,7 +32,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/apple.png" class="card-img-top" alt="...">
+                    <img src="img/apple-d.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">APPLE DEVICE</h5>
                         <p class="card-text">Jelajahi tools eksklusif, software terbaik, dan trik praktis untuk memaksimalkan perangkat Apple Anda sehari-hari.</p>
