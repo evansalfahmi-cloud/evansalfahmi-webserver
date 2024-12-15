@@ -6,10 +6,10 @@
         <!-- Konten Software Flash HP -->
         <div class="col-md-4">
             <div class="card">
-                <img src="../img/flash-software.png" class="card-img-top" alt="...">
+                <img src="../img/operating-system.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Operating System</h5>
-                    <p class="card-text">Temukan berbagai software untuk flashing HP berbagai merek dan tipe.</p>
+                    <p class="card-text">Temukan berbagai Operating System untuk Komputer dan Laptop Anda.</p>
                     <a href="software_flash.php" class="btn btn-primary">Lihat Software Flash</a>
                 </div>
             </div>
@@ -18,10 +18,10 @@
         <!-- Konten Firmware -->
         <div class="col-md-4">
             <div class="card">
-                <img src="../img/firmware.png" class="card-img-top" alt="...">
+                <img src="../img/software-pc.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Software</h5>
-                    <p class="card-text">Unduh firmware berbagai macam smartphone untuk memaksimalkan perangkat Anda.</p>
+                    <p class="card-text">Unduh Berbagai Macam Software untuk Kebutuhan Komputer Anda.</p>
                     <a href="firmware.php" class="btn btn-primary">Lihat Firmware</a>
                 </div>
             </div>
@@ -30,10 +30,10 @@
         <!-- Konten Aplikasi Smartphone -->
         <div class="col-md-4">
             <div class="card">
-                <img src="../img/smartphone-apps.png" class="card-img-top" alt="...">
+                <img src="../img/driver.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Driver</h5>
-                    <p class="card-text">Jelajahi aplikasi terbaru untuk meningkatkan pengalaman menggunakan smartphone.</p>
+                    <p class="card-text">Jelajahi Driver Terbaru untuk Memaksimalkan Hardware Anda.</p>
                     <a href="apps.php" class="btn btn-primary">Lihat Aplikasi</a>
                 </div>
             </div>
