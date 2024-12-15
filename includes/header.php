@@ -7,7 +7,6 @@
     <title>evansalfahmi-web</title>
     <!-- Link ke file CSS Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="customfont.css">
     <link rel="icon" href="img/ico.png" type="image/x-icon"/>
 </head>
 <body>

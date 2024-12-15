@@ -16,7 +16,7 @@
                     <div class="card-body">
                         <h5 class="card-title">SMARTPHONE</h5>
                         <p class="card-text">Temukan beragam tools dan software terkini, serta tips dan trik pintar untuk mengoptimalkan pengalaman smartphone Anda.</p>
-                        <a href="categories/smartphone.php" class="btn btn-primary">Lihat Smartphone</a>
+                        <a href="/categories/smartphone.php" class="btn btn-primary">Lihat Smartphone</a>
                     </div>
                 </div>
             </div>
