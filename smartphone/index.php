@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Firmware</h5>
                     <p class="card-text">Unduh firmware berbagai macam smartphone untuk memaksimalkan perangkat Anda.</p>
-                    <a href="firmware.php" class="btn btn-primary">Lihat Firmware</a>
+                    <a href="firmware_index.php" class="btn btn-primary">Lihat Firmware</a>
                 </div>
             </div>
         </div>
