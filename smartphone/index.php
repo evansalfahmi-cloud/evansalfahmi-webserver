@@ -6,7 +6,7 @@
         <!-- Konten Software Flash HP -->
         <div class="col-md-4">
             <div class="card">
-                <img src="../img/flash-software.png" class="card-img-top" alt="...">
+                <img src="../img/software-flash.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Software Flash HP</h5>
                     <p class="card-text">Temukan berbagai software untuk flashing HP berbagai merek dan tipe.</p>
@@ -30,7 +30,7 @@
         <!-- Konten Aplikasi Smartphone -->
         <div class="col-md-4">
             <div class="card">
-                <img src="../img/smartphone-apps.png" class="card-img-top" alt="...">
+                <img src="../img/smartphoneapps.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Aplikasi Smartphone</h5>
                     <p class="card-text">Jelajahi aplikasi terbaru untuk meningkatkan pengalaman menggunakan smartphone.</p>
