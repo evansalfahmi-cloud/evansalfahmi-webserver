@@ -1,22 +1,41 @@
+<!-- smartphone.php -->
 <?php include '../includes/header.php'; ?>
 <div class="container mt-5">
-    <h1>Smartphone</h1>
-    <p>Beragam tools dan software untuk smartphone Anda:</p>
-    <div class="row">
-        <?php
-        $data = include '../data/smartphone_data.php';
-        foreach ($data as $item) {
-            echo '<div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">' . $item['title'] . '</h5>
-                            <p class="card-text">' . $item['description'] . '</p>
-                            <a href="' . $item['link'] . '" class="btn btn-primary">Download</a>
-                        </div>
-                    </div>
-                </div>';
-        }
-        ?>
+    <h2>Tools untuk Apple Devices</h2>
+    <div class="row mt-4">
+        <!-- Flash Software -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/flash_software.png" class="card-img-top" alt="Flash Software">
+                <div class="card-body">
+                    <h5 class="card-title">Software Apple</h5>
+                    <p class="card-text">Temukan berbagai software untuk flashing smartphone Anda.</p>
+                    <a href="/tools/smartphone/flash_software.php" class="btn btn-primary">Lihat Flash Software</a>
+                </div>
+            </div>
+        </div>
+        <!-- Firmware -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/firmware.png" class="card-img-top" alt="Firmware">
+                <div class="card-body">
+                    <h5 class="card-title">Firmware Apple</h5>
+                    <p class="card-text">Download firmware untuk berbagai merek dan model smartphone.</p>
+                    <a href="/tools/smartphone/firmware.php" class="btn btn-primary">Lihat Firmware</a>
+                </div>
+            </div>
+        </div>
+        <!-- Smartphone Apps -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/smartphone_apps.png" class="card-img-top" alt="Smartphone Apps">
+                <div class="card-body">
+                    <h5 class="card-title">MAC OS System</h5>
+                    <p class="card-text">Unduh aplikasi terbaik untuk smartphone Anda.</p>
+                    <a href="/tools/smartphone/apps.php" class="btn btn-primary">Lihat Aplikasi</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <?php include '../includes/footer.php'; ?>

@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>evansalfahmi-web</title>
     <!-- Link ke file CSS Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="icon" href="img/ico.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="icon" href="../img/ico.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -22,13 +23,13 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tools.php">Tools</a>
+                        <a class="nav-link" href="tools.php">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="operating_system.php">Operating System</a>
+                        <a class="nav-link" href="operating_system.php">Tutorial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="firmware.php">Firmware</a>
+                        <a class="nav-link" href="firmware.php">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact</a>
