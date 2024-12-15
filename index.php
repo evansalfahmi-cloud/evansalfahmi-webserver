@@ -16,7 +16,7 @@
                     <div class="card-body">
                         <h5 class="card-title">SMARTPHONE</h5>
                         <p class="card-text">Temukan beragam tools dan software terkini, serta tips dan trik pintar untuk mengoptimalkan pengalaman smartphone Anda.</p>
-                        <a href="/categories/smartphone.php" class="btn btn-primary">Lihat Smartphone</a>
+                        <a href="/smartphone/index.php" class="btn btn-primary">Lihat Smartphone</a>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                     <div class="card-body">
                         <h5 class="card-title">COMPUTER</h5>
                         <p class="card-text">Dapatkan software pilihan, solusi teknis, dan tips berguna untuk meningkatkan produktivitas dan performa komputer Anda.</p>
-                        <a href="categories/computer.php" class="btn btn-primary">Lihat Computer</a>
+                        <a href="computer/index.php" class="btn btn-primary">Lihat Computer</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     <div class="card-body">
                         <h5 class="card-title">APPLE DEVICE</h5>
                         <p class="card-text">Jelajahi tools eksklusif, software terbaik, dan trik praktis untuk memaksimalkan perangkat Apple Anda sehari-hari.</p>
-                        <a href="categories/apple.php" class="btn btn-primary">Lihat Apple</a>
+                        <a href="apple/index.php" class="btn btn-primary">Lihat Apple</a>
                     </div>
                 </div>
             </div>
