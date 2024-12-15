@@ -34,7 +34,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Aplikasi Smartphone</h5>
                     <p class="card-text">Jelajahi aplikasi terbaru untuk meningkatkan pengalaman menggunakan smartphone.</p>
-                    <a href="apps.php" class="btn btn-primary">Lihat Aplikasi</a>
+                    <a href="smartphone_apps.php" class="btn btn-primary">Lihat Aplikasi</a>
                 </div>
             </div>
         </div>
