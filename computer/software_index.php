@@ -11,7 +11,7 @@ include '../includes/config.php';
             <div class="card-body">
                 <h5 class="card-title">Raster</h5>
                 <p class="card-text">Dapatkan Software Raster.</p>
-                <a href="os_system.php?category=windows" class="btn btn-primary">Lihat Software Raster</a>
+                <a href="software_list.php?category=raster" class="btn btn-primary">Lihat Software Raster</a>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@ include '../includes/config.php';
             <div class="card-body">
                 <h5 class="card-title">Vector</h5>
                 <p class="card-text">Dapatkan Software Vector.</p>
-                <a href="os_system.php?category=ubuntu" class="btn btn-primary">Lihat Software Vector</a>
+                <a href="software_list.php?category=vector" class="btn btn-primary">Lihat Software Vector</a>
             </div>
         </div>
     </div>
@@ -31,7 +31,7 @@ include '../includes/config.php';
             <div class="card-body">
                 <h5 class="card-title">Office</h5>
                 <p class="card-text">Dapatkan Software Office.</p>
-                <a href="os_system.php?category=debian" class="btn btn-primary">Lihat Software Office</a>
+                <a href="software_list.php?category=office" class="btn btn-primary">Lihat Software Office</a>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@ include '../includes/config.php';
             <div class="card-body">
                 <h5 class="card-title">Multimedia</h5>
                 <p class="card-text">Dapatkan Software Multimedia.</p>
-                <a href="os_system.php?category=kali linux" class="btn btn-primary">Lihat Software Multimedia</a>
+                <a href="software_list.php?category=multimedia" class="btn btn-primary">Lihat Software Multimedia</a>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@ include '../includes/config.php';
             <div class="card-body">
                 <h5 class="card-title">Development</h5>
                 <p class="card-text">Dapatkan Software Development.</p>
-                <a href="os_system.php?category=arch linux" class="btn btn-primary">Lihat Software Development</a>
+                <a href="software_list.php?category=development" class="btn btn-primary">Lihat Software Development</a>
             </div>
         </div>
     </div>
@@ -61,7 +61,7 @@ include '../includes/config.php';
             <div class="card-body">
                 <h5 class="card-title">Other</h5>
                 <p class="card-text">Dapatkan Software Other. </p>
-                <a href="os_system.php?category=freebsd" class="btn btn-primary">Lihat Software Other</a>
+                <a href="software_list.php?category=other" class="btn btn-primary">Lihat Software Other</a>
             </div>
         </div>
     </div>

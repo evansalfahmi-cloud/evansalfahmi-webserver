@@ -34,7 +34,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Driver</h5>
                     <p class="card-text">Jelajahi Driver Terbaru untuk Memaksimalkan Hardware Anda.</p>
-                    <a href="apps.php" class="btn btn-primary">Lihat Aplikasi</a>
+                    <a href="drivers.php" class="btn btn-primary">Lihat Aplikasi</a>
                 </div>
             </div>
         </div>
