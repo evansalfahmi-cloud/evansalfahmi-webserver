@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Operating System</h5>
                     <p class="card-text">Temukan berbagai Operating System untuk Komputer dan Laptop Anda.</p>
-                    <a href="software_flash.php" class="btn btn-primary">Lihat Software Flash</a>
+                    <a href="os_index.php" class="btn btn-primary">Lihat Software Flash</a>
                 </div>
             </div>
         </div>
