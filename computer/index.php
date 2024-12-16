@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Software</h5>
                     <p class="card-text">Unduh Berbagai Macam Software untuk Kebutuhan Komputer Anda.</p>
-                    <a href="firmware.php" class="btn btn-primary">Lihat Firmware</a>
+                    <a href="software_index.php" class="btn btn-primary">Lihat Firmware</a>
                 </div>
             </div>
         </div>
