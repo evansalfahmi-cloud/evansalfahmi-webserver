@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Software Apple</h5>
                     <p class="card-text">Temukan berbagai software untuk  berbagai macam Perangkat Apple.</p>
-                    <a href="software_flash.php" class="btn btn-primary">Lihat Software Flash</a>
+                    <a href="software_apple.php" class="btn btn-primary">Lihat Software Flash</a>
                 </div>
             </div>
         </div>
