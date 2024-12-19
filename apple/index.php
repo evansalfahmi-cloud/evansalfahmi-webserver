@@ -34,7 +34,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Firmware Apple</h5>
                     <p class="card-text">Unduh IOS, IpadOS Terbaru untuk perangkat IPhone, Ipad Anda.</p>
-                    <a href="apps.php" class="btn btn-primary">Lihat Aplikasi</a>
+                    <a href="firmware_apple.php" class="btn btn-primary">Lihat Aplikasi</a>
                 </div>
             </div>
         </div>
