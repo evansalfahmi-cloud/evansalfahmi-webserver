@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <h5 class="card-title">MAC OSX</h5>
                     <p class="card-text">Unduh Sistem Operasi MacOSX untuk Perangkat MacBook, Mac, Macmini dan Mac Pro.</p>
-                    <a href="firmware.php" class="btn btn-primary">Lihat Firmware</a>
+                    <a href="macos.php" class="btn btn-primary">Lihat Firmware</a>
                 </div>
             </div>
         </div>
