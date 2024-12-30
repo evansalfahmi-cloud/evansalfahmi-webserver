@@ -1,4 +1,3 @@
-<!-- index.php -->
 <?php include 'includes/header.php'; ?>
 <div class="container mt-5">
         <div class="row">
@@ -11,35 +10,56 @@
         <!-- Row tambahan untuk konten di bawahnya -->
         <div class="row mt-4">
         <div class="col-md-4">
-                <div class="card">
-                    <img src="img/smp.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">SMARTPHONE</h5>
-                        <p class="card-text">Software flash, firmware, dan aplikasi terbaik untuk meningkatkan kinerja smartphone Anda.</p>
-                        <a href="/smartphone/index.php" class="btn btn-primary">Lihat Smartphone</a>
-                    </div>
+            <div class="card position-relative overflow-hidden">
+                <!-- Label -->
+                <div class="card-label position-absolute top-0 start-0 bg-dark text-white px-3 py-1">
+                    SMARTPHONE
+                </div>
+                <!-- Clickable Image -->
+                <a href="/smartphone/index.php" class="d-block">
+                    <img src="img/smp.png" class="card-img-top hover-zoom" alt="SMARTPHONE">
+                </a>
+                <!-- Card Body (Over Image) -->
+                <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
+                    <p class="card-text">Software flash, firmware, dan aplikasi terbaik untuk meningkatkan kinerja smartphone Anda.</p>
+                    <a href="/smartphone/index.php" class="btn btn-dark btn-sm">Lihat Smartphone</a>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/com.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">COMPUTER</h5>
-                        <p class="card-text">Sistem operasi, software, dan driver andal untuk mendukung performa komputer Anda.</p>
-                        <a href="computer/index.php" class="btn btn-primary">Lihat Computer</a>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card position-relative overflow-hidden">
+                <!-- Label -->
+                <div class="card-label position-absolute top-0 start-0 bg-dark text-white px-3 py-1">
+                    COMPUTER
+                </div>
+                <!-- Clickable Image -->
+                <a href="computer/index.php" class="d-block">
+                    <img src="img/com.png" class="card-img-top hover-zoom" alt="COMPUTER">
+                </a>
+                <!-- Card Body (Over Image) -->
+                <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
+                    <p class="card-text">Sistem operasi, software, dan driver andal untuk mendukung performa komputer Anda.</p>
+                    <a href="computer/index.php" class="btn btn-dark btn-sm">Lihat Computer</a>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/apple-d.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">APPLE DEVICE</h5>
-                        <p class="card-text">macOS, software eksklusif, dan firmware Apple untuk memaksimalkan perangkat Anda.</p>
-                        <a href="apple/index.php" class="btn btn-primary">Lihat Apple</a>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card position-relative overflow-hidden">
+                <!-- Label -->
+                <div class="card-label position-absolute top-0 start-0 bg-dark text-white px-3 py-1">
+                    APPLE DEVICE
+                </div>
+                <!-- Clickable Image -->
+                <a href="apple/index.php" class="d-block">
+                    <img src="img/apple-d.png" class="card-img-top hover-zoom" alt="APPLE DEVICE">
+                </a>
+                <!-- Card Body (Over Image) -->
+                <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
+                    <p class="card-text">macOS, software eksklusif, dan firmware Apple untuk memaksimalkan perangkat Anda.</p>
+                    <a href="apple/index.php" class="btn btn-dark btn-sm">Lihat Apple</a>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 <?php include 'includes/footer.php'; ?>
