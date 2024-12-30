@@ -12,22 +12,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* Animasi untuk input pencarian */
+        .search-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
         .search-input {
-            transition: width 0.3s ease-in-out;
             width: 0;
+            transition: width 0.4s ease;
             opacity: 0;
             visibility: hidden;
         }
-
-        .search-input.active {
+        .search-input.show {
             width: 200px;
             opacity: 1;
             visibility: visible;
         }
-
-        /* Menambahkan cursor pointer untuk tombol pencarian */
-        .search-btn {
+        .search-button {
             cursor: pointer;
         }
     </style>
@@ -59,27 +60,28 @@
                     <a class="nav-link" href="../contact.php">Contact</a>
                 </li>
             </ul>
+            <!-- Animatif Search -->
+            <div class="search-container ">
+                <input id="searchInput" class="form-control search-input" type="search" name="query" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light search-button" id="searchToggle">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
         </div>
-        <!-- Ikon Pencarian (Dipindahkan ke kanan) -->
-        <button class="btn btn-outline-light search-btn ms-auto" type="button" id="searchToggle">
-            <i class="bi bi-search"></i> <!-- Ikon Pencarian dari Bootstrap Icons -->
-        </button>
-        <!-- Input Pencarian (Awalnya tersembunyi) -->
-        <input type="text" id="searchInput" class="form-control search-input ms-3" placeholder="Search" aria-label="Search">
     </div>
 </nav>
+<div class="container mt-4">
 
-<!-- JavaScript untuk menampilkan input pencarian saat tombol diklik -->
 <script>
-    document.getElementById('searchToggle').addEventListener('click', function() {
-        var searchInput = document.getElementById('searchInput');
-        // Menambahkan atau menghapus kelas 'active' untuk animasi input
-        searchInput.classList.toggle('active');
-        // Fokus pada input jika sudah aktif
-        if (searchInput.classList.contains('active')) {
+    const searchToggle = document.getElementById('searchToggle');
+    const searchInput = document.getElementById('searchInput');
+
+    searchToggle.addEventListener('click', () => {
+        searchInput.classList.toggle('show');
+        if (searchInput.classList.contains('show')) {
             searchInput.focus();
+        } else {
+            searchInput.blur();
         }
     });
 </script>
-
-<div class="container mt-4">
