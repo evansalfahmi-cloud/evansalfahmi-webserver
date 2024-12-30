@@ -4,19 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>evansalfahmi-web</title>
+    <title>fahmifinder</title>
     <!-- Link ke file CSS Bootstrap -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../img/ico.png" type="image/x-icon"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .search-input {
+            display: none;
+            transition: width 0.4s ease;
+        }
+
+        .search-input.show {
+            display: inline-block;
+            width: 200px;
+        }
+
+        .search-icon {
+            cursor: pointer;
+        }
+
+        /* Menyembunyikan form search pada layar kecil di dalam navbar */
+        @media (max-width: 991px) {
+            .search-container {
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 999;
+            }
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
         <a class="navbar-brand" href="../index.php#">
-            <h1 class="h3 m-0">evansalfahmi-web</h1>
+            <h1 class="h3 m-0">fahmifinder</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,10 +65,12 @@
                     <a class="nav-link" href="../contact.php">Contact</a>
                 </li>
             </ul>
-            <!-- Form Search -->
+        </div>
+        <!-- Form Search di luar navbar-collapse untuk tampil di kanan -->
+        <div class="search-container">
             <form class="d-flex ms-3" action="../search_results.php" method="GET">
-                <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light" type="submit">
+                <input class="form-control me-2 search-input" type="search" name="query" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light search-icon" type="button" onclick="toggleSearch()">
                     <i class="bi bi-search"></i>
                 </button>
             </form>
@@ -50,3 +78,12 @@
     </div>
 </nav>
 <div class="container mt-4">
+
+<!-- JavaScript untuk menampilkan/menghilangkan input search -->
+<script>
+    function toggleSearch() {
+        var searchInput = document.querySelector('.search-input');
+        searchInput.classList.toggle('show');
+        searchInput.focus(); // Fokus pada input setelah dibuka
+    }
+</script>
