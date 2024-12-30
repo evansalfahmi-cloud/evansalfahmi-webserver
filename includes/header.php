@@ -12,29 +12,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        /* Animasi untuk input pencarian */
         .search-input {
-            display: none;
-            transition: width 0.4s ease;
+            transition: width 0.3s ease-in-out;
+            width: 0;
+            opacity: 0;
+            visibility: hidden;
         }
 
-        .search-input.show {
-            display: inline-block;
+        .search-input.active {
             width: 200px;
+            opacity: 1;
+            visibility: visible;
         }
 
-        .search-icon {
+        /* Menambahkan cursor pointer untuk tombol pencarian */
+        .search-btn {
             cursor: pointer;
-        }
-
-        /* Menyembunyikan form search pada layar kecil di dalam navbar */
-        @media (max-width: 991px) {
-            .search-container {
-                position: absolute;
-                right: 10px;
-                top: 50%;
-                transform: translateY(-50%);
-                z-index: 999;
-            }
         }
     </style>
 </head>
@@ -66,24 +60,26 @@
                 </li>
             </ul>
         </div>
-        <!-- Form Search di luar navbar-collapse untuk tampil di kanan -->
-        <div class="search-container">
-            <form class="d-flex ms-3" action="../search_results.php" method="GET">
-                <input class="form-control me-2 search-input" type="search" name="query" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light search-icon" type="button" onclick="toggleSearch()">
-                    <i class="bi bi-search"></i>
-                </button>
-            </form>
-        </div>
+        <!-- Ikon Pencarian (Dipindahkan ke kanan) -->
+        <button class="btn btn-outline-light search-btn ms-auto" type="button" id="searchToggle">
+            <i class="bi bi-search"></i> <!-- Ikon Pencarian dari Bootstrap Icons -->
+        </button>
+        <!-- Input Pencarian (Awalnya tersembunyi) -->
+        <input type="text" id="searchInput" class="form-control search-input ms-3" placeholder="Search" aria-label="Search">
     </div>
 </nav>
-<div class="container mt-4">
 
-<!-- JavaScript untuk menampilkan/menghilangkan input search -->
+<!-- JavaScript untuk menampilkan input pencarian saat tombol diklik -->
 <script>
-    function toggleSearch() {
-        var searchInput = document.querySelector('.search-input');
-        searchInput.classList.toggle('show');
-        searchInput.focus(); // Fokus pada input setelah dibuka
-    }
+    document.getElementById('searchToggle').addEventListener('click', function() {
+        var searchInput = document.getElementById('searchInput');
+        // Menambahkan atau menghapus kelas 'active' untuk animasi input
+        searchInput.classList.toggle('active');
+        // Fokus pada input jika sudah aktif
+        if (searchInput.classList.contains('active')) {
+            searchInput.focus();
+        }
+    });
 </script>
+
+<div class="container mt-4">
