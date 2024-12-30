@@ -21,7 +21,7 @@
                         <img src="img/smp.png" class="card-img-top hover-zoom" alt="SMARTPHONE">
                     </a>
                     <!-- Card Body (Over Image) -->
-                    <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
+                    <div class="card-body position-absolute bottom-0 start-0 text-white bg-success bg-opacity-75 w-100 px-3 py-2">
                         <p class="card-text">Software flash, firmware, dan aplikasi terbaik untuk meningkatkan kinerja smartphone Anda.</p>
                         <a href="smartphone/index.php" class="btn btn-dark btn-sm">Lihat Smartphone</a>
                     </div>
@@ -38,7 +38,7 @@
                         <img src="img/com.png" class="card-img-top hover-zoom" alt="FIRMWARE">
                     </a>
                     <!-- Card Body (Over Image) -->
-                    <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
+                    <div class="card-body position-absolute bottom-0 start-0 text-white bg-danger bg-opacity-75 w-100 px-3 py-2">
                         <p class="card-text">Sistem operasi, software, dan driver andal untuk mendukung performa komputer Anda.</p>
                         <a href="computer/index.php" class="btn btn-dark btn-sm">Lihat Computer</a>
                     </div>
@@ -55,7 +55,7 @@
                         <img src="img/apple-d.png" class="card-img-top hover-zoom" alt="APLIKASI SMARTPHONE">
                     </a>
                     <!-- Card Body (Over Image) -->
-                    <div class="card-body position-absolute bottom-0 start-0 text-white bg-dark bg-opacity-75 w-100 px-3 py-2">
+                    <div class="card-body position-absolute bottom-0 start-0 text-white bg-secondary bg-opacity-75 w-100 px-3 py-2">
                         <p class="card-text">macOS, software eksklusif, dan firmware Apple untuk memaksimalkan perangkat Anda.</p>
                         <a href="apple/index.php" class="btn btn-dark btn-sm">Lihat Apple Devices</a>
                     </div>
