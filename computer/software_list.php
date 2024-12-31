@@ -23,10 +23,10 @@ if (!empty($category)) {
     <table class="table table-striped table-hover mt-4">
         <thead class="table-primary">
             <tr>
-                <th>#</th>
-                <th>Nama Software</th>
-                <th>Deskripsi</th>
-                <th>Link Download</th>
+                <th style="width: 5%;">#</th>
+                <th style="width: 35%;">Nama Software</th>
+                <th style="width: 40%;">Deskripsi</th>
+                <th style="width: 20%;">Link Download</th>
             </tr>
         </thead>
         <tbody>
