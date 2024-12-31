@@ -6,34 +6,55 @@ include '../includes/config.php';
 // Query untuk mengambil data firmware Apple
 $query = "SELECT * FROM firmware_apple ORDER BY device ASC";
 $result = mysqli_query($conn, $query);
+
+// Mengelompokkan data berdasarkan huruf pertama perangkat
+$data_grouped = [];
+if ($result && mysqli_num_rows($result) > 0) {
+    while ($row = mysqli_fetch_assoc($result)) {
+        $first_letter = strtoupper($row['device'][0]); // Huruf pertama perangkat
+        if (!isset($data_grouped[$first_letter])) {
+            $data_grouped[$first_letter] = [];
+        }
+        $data_grouped[$first_letter][] = $row;
+    }
+} else {
+    echo "<p class='text-center'>Tidak ada firmware tersedia.</p>";
+}
 ?>
 
 <div class="container mt-5">
     <h2 class="text-center">Apple Firmware List</h2>
-    <table class="table table-striped table-hover mt-4">
-        <thead class="table-primary">
-            <tr>
-                <th>#</th>
-                <th>Perangkat</th>
-                <th>Versi</th>
-                <th>Link Download</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php
-            $no = 1;
-            while ($row = mysqli_fetch_assoc($result)): ?>
+
+    <?php 
+    // Inisialisasi nomor urut
+    $no = 1; 
+
+    // Loop melalui data yang telah dikelompokkan
+    foreach ($data_grouped as $letter => $items): ?>
+        <h3 class="mt-4"><?php echo $letter; ?></h3>
+        <table class="table table-striped table-hover mt-2">
+            <thead class="table-primary">
                 <tr>
-                    <td><?php echo $no++; ?></td>
-                    <td><?php echo htmlspecialchars($row['device']); ?></td>
-                    <td><?php echo htmlspecialchars($row['version']); ?></td>
-                    <td>
-                        <a href="<?php echo htmlspecialchars($row['download_link']); ?>" class="btn btn-primary btn-sm" target="_blank">Download</a>
-                    </td>
+                    <th style="width: 5%;">#</th>
+                    <th style="width: 35%;">Perangkat</th>
+                    <th style="width: 40%;">Versi</th>
+                    <th style="width: 20%;">Link Download</th>
                 </tr>
-            <?php endwhile; ?>
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                <?php foreach ($items as $row): ?>
+                    <tr>
+                        <td><?php echo $no++; ?></td>
+                        <td><?php echo htmlspecialchars($row['device']); ?></td>
+                        <td><?php echo htmlspecialchars($row['version']); ?></td>
+                        <td>
+                            <a href="<?php echo htmlspecialchars($row['download_link']); ?>" class="btn btn-primary btn-sm" target="_blank">Download</a>
+                        </td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    <?php endforeach; ?>
 </div>
 
 <?php include '../includes/footer.php'; ?>
