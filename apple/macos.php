@@ -6,32 +6,53 @@ include '../includes/config.php';
 // Query untuk mengambil data macOS
 $query = "SELECT * FROM macos ORDER BY version ASC";
 $result = mysqli_query($conn, $query);
+
+// Mengelompokkan data berdasarkan huruf pertama versi
+$data_grouped = [];
+if ($result && mysqli_num_rows($result) > 0) {
+    while ($row = mysqli_fetch_assoc($result)) {
+        $first_letter = strtoupper($row['version'][0]); // Huruf pertama versi
+        if (!isset($data_grouped[$first_letter])) {
+            $data_grouped[$first_letter] = [];
+        }
+        $data_grouped[$first_letter][] = $row;
+    }
+} else {
+    echo "<p class='text-center'>Tidak ada versi macOS tersedia.</p>";
+}
 ?>
 
 <div class="container mt-5">
     <h2 class="text-center">macOS Version List</h2>
-    <table class="table table-striped table-hover mt-4">
-        <thead class="table-primary">
-            <tr>
-                <th>#</th>
-                <th>Versi macOS</th>
-                <th>Link Download</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php
-            $no = 1;
-            while ($row = mysqli_fetch_assoc($result)): ?>
+
+    <?php 
+    // Inisialisasi nomor urut
+    $no = 1;
+
+    // Loop melalui data yang telah dikelompokkan
+    foreach ($data_grouped as $letter => $items): ?>
+        <h3 class="mt-4"><?php echo $letter; ?></h3>
+        <table class="table table-striped table-hover mt-2">
+            <thead class="table-primary">
                 <tr>
-                    <td><?php echo $no++; ?></td>
-                    <td><?php echo htmlspecialchars($row['version']); ?></td>
-                    <td>
-                        <a href="<?php echo htmlspecialchars($row['download_link']); ?>" class="btn btn-primary btn-sm" target="_blank">Download</a>
-                    </td>
+                    <th style="width: 10%;">#</th>
+                    <th style="width: 70%;">Versi macOS</th>
+                    <th style="width: 20%;">Link Download</th>
                 </tr>
-            <?php endwhile; ?>
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                <?php foreach ($items as $row): ?>
+                    <tr>
+                        <td><?php echo $no++; ?></td>
+                        <td><?php echo htmlspecialchars($row['version']); ?></td>
+                        <td>
+                            <a href="<?php echo htmlspecialchars($row['download_link']); ?>" class="btn btn-primary btn-sm" target="_blank">Download</a>
+                        </td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    <?php endforeach; ?>
 </div>
 
 <?php include '../includes/footer.php'; ?>
