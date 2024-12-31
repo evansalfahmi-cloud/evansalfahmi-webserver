@@ -12,11 +12,11 @@ $result = mysqli_query($conn, $query);
     <table class="table table-striped table-hover mt-4">
         <thead class="table-primary">
             <tr>
-                <th>#</th>
-                <th>Nama Driver</th>
-                <th>Versi</th>
-                <th>Link Download</th>
-                <th>Tanggal Dibuat</th>
+                <th style="width: 5%;">#</th>
+                <th style="width: 25%;">Nama Driver</th>
+                <th style="width: 20%;">Versi</th>
+                <th style="width: 20%;">Link Download</th>
+                <th style="width: 20%;">Tanggal Dibuat</th>
             </tr>
         </thead>
         <tbody>
