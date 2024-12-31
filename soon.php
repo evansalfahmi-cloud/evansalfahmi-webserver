@@ -1,4 +1,7 @@
 <!-- about.php -->
 <?php include 'includes/header.php'; ?>
-<h1>Halaman Ini akan segera dibuat</h1>
+<div style="text-align: center;">
+    <h3>Halaman Sedang dibuat</h3>
+</div>
+
 <?php include 'includes/footer.php'; ?>
