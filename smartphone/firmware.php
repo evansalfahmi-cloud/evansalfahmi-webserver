@@ -26,10 +26,10 @@ if (!empty($brand)) {
         <table class="table table-striped table-hover mt-4">
             <thead class="table-primary">
                 <tr>
-                    <th>#</th>
-                    <th>Model</th>
-                    <th>Firmware Version</th>
-                    <th>Link Download</th>
+                    <th style="width: 5%;">#</th>
+                    <th style="width: 35%;">Model</th>
+                    <th style="width: 40%;">Firmware Version</th>
+                    <th style="width: 20%;">Link Download</th>
                 </tr>
             </thead>
             <tbody>
