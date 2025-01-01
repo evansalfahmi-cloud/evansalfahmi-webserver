@@ -1,7 +1,7 @@
 <!-- about.php -->
 <?php include 'includes/header.php'; ?>
 <h1>About Me</h1>
-<p>Nama saya Evans Al Fahmi, A.Md., seorang teknisi smartphone berpengalaman yang berdomisili di Lampung. Saya memiliki keahlian dalam menangani berbagai permasalahan hardware dan software pada perangkat smartphone. Dengan dedikasi dan ketelitian, saya selalu berusaha memberikan layanan terbaik untuk membantu pengguna perangkat elektronik dalam memperbaiki masalah teknis mereka. Selain smartphone, saya juga memiliki pengalaman dalam reparasi perangkat komputer, menjadikan saya seorang teknisi serba bisa di bidang teknologi.
+<p>Nama saya Evans Al Fahmi, A.Md., seorang teknisi smartphone yang berdomisili di Lampung. Saya memiliki keahlian dalam menangani berbagai permasalahan hardware dan software pada perangkat smartphone. Dengan dedikasi dan ketelitian, saya selalu berusaha memberikan layanan terbaik untuk membantu pengguna perangkat elektronik dalam memperbaiki masalah teknis mereka. Selain smartphone, saya juga memiliki pengalaman dalam reparasi perangkat komputer, menjadikan saya seorang teknisi serba bisa di bidang teknologi.
 <br/>
 Website ini saya buat dengan tujuan untuk memberikan informasi yang bermanfaat dan relevan seputar dunia reparasi perangkat elektronik, baik smartphone, komputer, maupun perangkat lainnya. Saya berharap website ini dapat menjadi sumber inspirasi dan solusi bagi banyak orang, terutama mereka yang membutuhkan panduan atau wawasan tentang perbaikan perangkat. Dengan semangat berbagi pengetahuan, saya optimis bahwa website ini akan terus berkembang dan memberikan manfaat yang luas bagi masyarakat.
 <br/>
