@@ -27,7 +27,7 @@
                     <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../soon.php">News & Tips</a>
+                    <a class="nav-link" href="https://evansalfahmi.wordpress.com">News & Tips</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../soon.php">Shop</a>
