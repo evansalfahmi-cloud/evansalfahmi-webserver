@@ -23,7 +23,7 @@ if (!empty($brand)) {
 
 <div class="container mt-5">
         <h2 class="text-center">Firmware <?php echo htmlspecialchars($brand); ?></h2>
-        <table class="table table-striped table-hover mt-4">
+        <table class="table table-striped table-hover mt-2">
             <thead class="table-primary">
                 <tr>
                     <th style="width: 5%;">#</th>
