@@ -67,12 +67,3 @@
 
 <?php include 'includes/footer.php'; ?>
 
-<style>
-.hover-zoom {
-    transition: transform 0.3s ease;
-}
-
-.hover-zoom:hover {
-    transform: scale(1.1);
-}
-</style>
