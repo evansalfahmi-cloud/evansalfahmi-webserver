@@ -1,10 +1,9 @@
 RewriteEngine On
 
-# Redirect all requests to remove index.php
-RewriteCond %{THE_REQUEST} /index\\.php [NC]
-RewriteRule ^(.*)index\\.php$ /$1 [L,R=301]
+# Redirect requests without .php extension to .php files
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
 
-# Handle URLs without index.php
+# Ensure existing files or directories are accessible
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?$1 [L]
