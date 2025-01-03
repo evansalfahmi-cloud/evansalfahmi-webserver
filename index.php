@@ -5,7 +5,7 @@
         <!-- Konten Utama -->
         <div class="jumbotron text-center">
             <h1>أهلا و سهلا</h1>
-            <p>FahmiFinder, Resources Helper</p> 
+            <p style="font-weight: bold; ">FahmiFinder, Resources Helper</p>
         </div>
         
         <!-- Row tambahan untuk konten di bawahnya -->
