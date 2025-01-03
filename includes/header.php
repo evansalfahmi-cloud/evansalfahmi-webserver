@@ -1,4 +1,3 @@
-<!-- includes/header.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,13 +23,13 @@
         .card-label {
             z-index: 10; /* Pastikan label tetap di atas */
         }
-</style>
-
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="../index.php#">
+        <a class="navbar-brand d-flex align-items-center" href="../index.php#">
+            <img src="../img/ico.png" alt="Logo" style="width: 30px; height: 30px; margin-right: 10px;">
             <h1 class="h3 m-0">fahmifinder</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
