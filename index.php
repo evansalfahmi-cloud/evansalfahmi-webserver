@@ -5,7 +5,7 @@
         <!-- Konten Utama -->
         <div class="jumbotron text-center">
             <h1>أهلا و سهلا</h1>
-            <p>selamat datang di website ini</p> 
+            <p>FahmiFinder, Resources Helper</p> 
         </div>
         
         <!-- Row tambahan untuk konten di bawahnya -->
@@ -66,4 +66,5 @@
 </div>
 
 <?php include 'includes/footer.php'; ?>
+
 
